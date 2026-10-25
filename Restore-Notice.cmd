@@ -1,0 +1,4 @@
+@echo off
+cd /d "%~dp0"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "%~dp0scripts\Hide-Notice.ps1" -Restore
+pause
